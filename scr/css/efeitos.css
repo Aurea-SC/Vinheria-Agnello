@@ -17,3 +17,38 @@
   .aumentada:hover {
     transform: scale(1.2);
   }
+
+/* Pseudo elementos */
+#pseudoElementos::first-letter {
+    font-size: 2em;
+    color: #7a1e1e;
+    font-weight: bold;
+}
+
+/* Animacao h1 Tipos */
+.animacaoTipos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 10px;
+}
+.animacaoTipos img {
+  width: 20px;
+  height: auto;
+}
+
+.imagemBalancando {
+  height: auto;
+  animation: balancar 3s ease-in-out infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes balancar {
+  from {
+    transform: rotate(-30deg);
+  }
+  to {
+    transform: rotate(30deg);
+  }
+}
