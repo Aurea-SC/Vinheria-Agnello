@@ -68,11 +68,16 @@ body {
     margin: 0 auto;
   }
 
-  h2{
-    padding: 10px 10px;
-    text-align: center;
-    color: #7a1e1e;
-  }
+ 
+body.home h2:first-of-type {
+  padding: 10px 10px;
+  text-align: center;
+  color: #7a1e1e;
+}
+body.home .novidades h2:first-of-type {
+  color: #ffffff;
+}
+
 
   h1{
     color: #7a1e1e;
