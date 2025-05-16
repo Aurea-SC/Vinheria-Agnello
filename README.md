@@ -40,18 +40,20 @@ Durante o desenvolvimento, utilizamos diversos recursos do HTML e CSS, como:
 - **Estilização com CSS** – Cores, fontes, espaçamento, layout responsivo e efeitos visuais
 - **JavaScript** – Inserção de interações básicas para melhorar a experiência do usuário
   
-##🕶 Efeitos Visuais 
-**Transições:**
-- Foram aplicadas **transições suaves** como, mudança de cor, sombra e hover na página Home e Regiões.
-- Foi adicionada uma transformação que faz as imagens da página Região se inclinarem ao passar o cursor por cima.
-- Foi adicionada uma transformação que ao passar o cursor nas imagens da página Harmonização a imagem muda de tamanho.
-  **Pseudo-elementos e Pseudo-classes:**
-- Foram adicionados pseudo-elementos na pagina Sobre Nós e Tipos: first-letter para estilizar a primeira letra de um texto.
-- Foram adicionadas pseudo-classes na página Home e Harmonização: first-of-type e nth-of-type para mudar a cor dos textos.
-**Animações:**
-- Foi adicionada uma animação com @keyframes na página Tipos, com uma imagem flutuando.
-  
+## 🕶 Efeitos Visuais
 
+### ✨ Transições
+- Foram aplicadas **transições suaves** de cor, sombra e efeitos de *hover* nas páginas **Home** e **Regiões**.
+- Na página **Regiões**, foi adicionada uma transformação que faz as imagens se inclinarem ao passar o cursor por cima.
+- Na página **Harmonização**, foi implementada uma transformação que aumenta o tamanho das imagens ao passar o cursor.
+
+### 🧩 Pseudo-elementos e Pseudo-classes
+- Foram adicionados **pseudo-elementos** nas páginas **Sobre Nós** e **Tipos**, utilizando `::first-letter` para estilizar a primeira letra de parágrafos.
+- Foram aplicadas **pseudo-classes** como `:first-of-type` e `:nth-of-type` nas páginas **Home** e **Harmonização**, modificando a cor de elementos específicos.
+
+### 🎞️ Animações
+- Foi criada uma **animação com `@keyframes`** na página **Tipos**, fazendo uma imagem "flutuar" continuamente.
+  
 ## ✅ Conclusão-
 
 Este projeto proporcionou uma ótima oportunidade para praticarmos os fundamentos do desenvolvimento front-end, unindo estrutura, estilo e interatividade. A temática da vinheria tornou o processo ainda mais interessante e prazeroso, possibilitando a criação de um conteúdo rico e visualmente agradável.
