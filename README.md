@@ -39,8 +39,20 @@ Durante o desenvolvimento, utilizamos diversos recursos do HTML e CSS, como:
 - **Imagens** – Para tornar o site mais visual e atrativo
 - **Estilização com CSS** – Cores, fontes, espaçamento, layout responsivo e efeitos visuais
 - **JavaScript** – Inserção de interações básicas para melhorar a experiência do usuário
+  
+##🕶 Efeitos Visuais 
+**Transições:**
+- Foram aplicadas **transições suaves** como, mudança de cor, sombra e hover na página Home e Regiões.
+- Foi adicionada uma transformação que faz as imagens da página Região se inclinarem ao passar o cursor por cima.
+- Foi adicionada uma transformação que ao passar o cursor nas imagens da página Harmonização a imagem muda de tamanho.
+  **Pseudo-elementos e Pseudo-classes:**
+- Foram adicionados pseudo-elementos na pagina Sobre Nós e Tipos: first-letter para estilizar a primeira letra de um texto.
+- Foram adicionadas pseudo-classes na página Home e Harmonização: first-of-type e nth-of-type para mudar a cor dos textos.
+**Animações:**
+- Foi adicionada uma animação com @keyframes na página Tipos, com uma imagem flutuando.
+  
 
-## ✅ Conclusão
+## ✅ Conclusão-
 
 Este projeto proporcionou uma ótima oportunidade para praticarmos os fundamentos do desenvolvimento front-end, unindo estrutura, estilo e interatividade. A temática da vinheria tornou o processo ainda mais interessante e prazeroso, possibilitando a criação de um conteúdo rico e visualmente agradável.
 
