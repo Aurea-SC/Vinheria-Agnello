@@ -265,3 +265,33 @@ body.home .novidades h2:first-of-type {
 .harmonizacoes-container{
   background-color:antiquewhite;
 }
+
+body.harmonizacao h1{
+  font-size: 33px; 
+  margin-bottom: 2px;
+  color:#7a1e1e;
+}
+
+body.harmonizacao h2{
+  font-size: 25px;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #2b2b2b;
+  text-align: center;
+  width: 100%;
+}
+
+body.harmonizacao h3{
+font-size: 30px;
+font-weight:bold;
+margin-top: 0;
+color: #7a1e1e;
+text-align: center;
+}
+
+body.harmonizacao h4{
+  font-size: 28px; 
+  color: #7a1e1e; 
+  text-align: center; 
+}
