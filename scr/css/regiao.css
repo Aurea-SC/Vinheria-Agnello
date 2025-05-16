@@ -42,12 +42,6 @@
     color: white;
     padding: 10px 20px;
     border-radius: 20px;
-    transition: background-color 0.3s ease, color 0.3s ease;
-  }
-
-  .lista-regiao .lista-texto li a:hover {
-    background-color: #b30000;
-    color: #020101;
   }
 
     body {

@@ -52,3 +52,64 @@
     transform: rotate(30deg);
   }
 }
+
+  /* página inicial - transições */
+
+  nav a {
+    transition: color 0.3s ease;
+  }
+
+  nav a:hover {
+    color: #000000;
+  }
+
+.vinho-img img {
+    transition: transform 0.3s ease;
+  }
+
+  .vinho-img1 img {
+    transition: transform 0.3s ease;
+  }
+
+  .vinho-img:hover img {
+    transform: scale(1.05);
+  }
+  
+  .vinho-img:hover .overlay {
+    opacity: 1;
+  }
+
+  .vinho-img1:hover img {
+    transform: scale(1.05);
+  }
+  
+  .vinho-img1:hover .overlay {
+    opacity: 1;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    color: #ffdbdb;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  /* página região - transições */
+
+  .lista-regiao .lista-texto li a {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  .lista-regiao .lista-texto li a:hover {
+    background-color: #b30000;
+    color: #020101;
+  }

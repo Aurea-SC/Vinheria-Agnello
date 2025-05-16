@@ -43,12 +43,8 @@ body {
     color: white;
     text-decoration: none;
     margin-left: 20px;
-    transition: color 0.3s ease;
   }
   
-  nav a:hover {
-    color: #000000;
-  }
 
   .banner{
     text-align: center;
@@ -133,48 +129,14 @@ body {
     width: 100%;
     height: auto;
     display: block;
-    transition: transform 0.3s ease;
   }
 
   .vinho-img1 img {
     width: 97%;
     height: auto;
     display: block;
-    transition: transform 0.3s ease;
   }
   
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.6);
-    color: #fff;
-    font-size: 1.2em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-  }
-  
-  
-  .vinho-img:hover img {
-    transform: scale(1.05);
-  }
-  
-  .vinho-img:hover .overlay {
-    opacity: 1;
-  }
-
-  .vinho-img1:hover img {
-    transform: scale(1.05);
-  }
-  
-  .vinho-img1:hover .overlay {
-    opacity: 1;
-  }
   
   .vinho-legenda {
     margin-top: 10px;
