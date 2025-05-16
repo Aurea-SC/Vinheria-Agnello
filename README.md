@@ -54,7 +54,7 @@ Durante o desenvolvimento, utilizamos diversos recursos do HTML e CSS, como:
 ### 🎞️ Animações
 - Foi criada uma **animação com `@keyframes`** na página **Tipos**, fazendo uma imagem "flutuar" continuamente.
   
-## ✅ Conclusão-
+## ✅ Conclusão
 
 Este projeto proporcionou uma ótima oportunidade para praticarmos os fundamentos do desenvolvimento front-end, unindo estrutura, estilo e interatividade. A temática da vinheria tornou o processo ainda mais interessante e prazeroso, possibilitando a criação de um conteúdo rico e visualmente agradável.
 
