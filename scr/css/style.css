@@ -258,4 +258,13 @@ body.harmonizacao h4 {
   text-align: center; 
 }
 
+.vinhoTinto,
+.vinhoBranco,
+.vinhoRose,
+.espumante,
+.vinhoLicoroso {
+  text-align: center; /* ou left / right */
+}
+
+
 @import url('efeitos.css');
